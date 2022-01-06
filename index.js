@@ -8,7 +8,7 @@ const keys = require("./config/keys.js");
 require("./models/User.js");
 require("./services/passport.js");
 
-mongoose.connect(keys.mongoURI);
+mongoose.connect(keys.mongoURI);//test
 
 const app = express();
 
